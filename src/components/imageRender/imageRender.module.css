@@ -5,7 +5,7 @@
   max-height: 700px;
   margin: 0 auto;
   padding-top: 5rem;
-  border: 1px solid violet;
+  background: wheat;
 }
 
 .img {
@@ -19,7 +19,4 @@
 .img:hover {
   transform: scale(1.05);
   opacity: 0.8;
-}
-
-p {
 }

@@ -6,17 +6,26 @@
   margin: 0 auto;
   padding-top: 5rem;
   background: wheat;
+  display: flex;
+  flex-direction: column;
 }
 
 .img {
   max-width: 80%;
   max-height: 80%;
   margin: 0 auto;
-  transition: opacity 250ms ease-in, transform 300ms ease-in;
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
   cursor: pointer;
 }
 
 .img:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   opacity: 0.8;
+}
+
+.input {
+  text-align: center;
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 5em;
 }
